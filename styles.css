@@ -1,2 +1,50 @@
+/* General Table Styling */
+table {
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+tr {
+    border: 1px solid black;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    color: beige;
+}
+
+/* Header Styling */
+th {
+    background-color: #ab3939;
+    color: white;
+}
+
+/* Row-Specific Styling */
+.row1 {
+    background-color: #c35656;
+}
+
+.row2 {
+    background-color: #c97878;
+}
+
+.row3 {
+    background-color: #c9a4a4;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 5px;
+    }
+}
 
 /* Your CSS Code here. */
